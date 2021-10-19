@@ -9,7 +9,7 @@ var express      = require("express"),
 	passportLocalMongoose = require("passport-local-mongoose"),
 	app 		 = express();
 //APP CONFUG
-mongoose.connect("mongodb://localhost:27017");
+mongoose.connect(process.env.DATABASE_URI);
 app.set("view engine" , "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
