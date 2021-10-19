@@ -1,4 +1,4 @@
-# Blog-App #
+# Blog-App
 
  This app provides a place to share blogs, videos and much more for those who want to share good blogs with others.
 
@@ -9,3 +9,7 @@ The CSS framework used is Semantic-UI
 ## Setup Instructions ##
 1. npm install
 2. npm start
+
+# Live Preview
+
+https://simple-blog29.herokuapp.com/
