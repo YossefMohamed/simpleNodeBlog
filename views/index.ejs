@@ -7,6 +7,9 @@
 	<div class="ui huge header">Blog App</div>
 	<iframe width="560" height="315" src="https://www.youtube.com/watch?v=_h_LGPsWysc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	<div class="ui divided items">
+	<% if(blogs.length===0){ %>
+		<h2>There's no Post :) </h2>
+	<% } %>
 		<% blogs.forEach(function(blog){ %>
 		<div class="item">
 			<div class="image">
